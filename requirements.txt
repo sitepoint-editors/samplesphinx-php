@@ -17,8 +17,6 @@ html5lib==0.999
 livereload==2.4.0
 meld3==0.6.10
 pathtools==0.1.2
-python-apt==0.9.3.5ubuntu1
-python-debian==0.1.21-nmu2ubuntu2
 pytz==2015.4
 recommonmark==0.2.0
 requests==2.2.1
