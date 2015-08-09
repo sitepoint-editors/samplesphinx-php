@@ -305,13 +305,13 @@ html_context = {
 }
 
 
-on_rtd = os.environ.get("READTHEDOCS", None) == "True"
-if not on_rtd:  # only import and set the theme if we are building docs locally
+#on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+#if not on_rtd:  # only import and set the theme if we are building docs locally
     
     # Set up sphinx RTD theme if not on RTD
-    import sphinx_rtd_theme
-    html_theme = "sphinx_rtd_theme"
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+import sphinx_rtd_theme
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
     
 # Set up PHP syntax highlights
 from sphinx.highlighting import lexers
