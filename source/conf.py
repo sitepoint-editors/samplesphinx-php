@@ -39,7 +39,7 @@ primary_domain = 'php'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 #extensions = ["sphinxcontrib.phpdomain"]
-extensions = []
+extensions = ["sphinxcontrib.phpdomain"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
